@@ -12,7 +12,16 @@ body{
     margin-top: 4%;
     margin-bottom: 5%;
     margin-left: 6%;
+  
 }
+
+@media (max-width: 600px) {
+    #home {
+      font-size: 16px;
+      width: 90%;
+   
+    }
+  }
    
 .div1{
     text-align: center;
@@ -21,7 +30,6 @@ body{
     margin-top: 15%;
     font-family: 'Montserrat', sans-serif;
     
-
   }
   .a1{
   
@@ -31,14 +39,20 @@ body{
     text-decoration: none;
     padding: 15px;   
 }
+@media (max-width: 600px) {
+    .a1{
+      font-size: 13px;
+      
+   
+    }
+  }
+   
 #a1{
     font-family: 'Montserrat', sans-serif;   
-    margin-top: -4%;
+    margin-top: -5%;
     font-weight: bolder;
     margin-left: 65%;
-    /* overflow: hidden;
-    position: fixed;
-    */
+
   
 }
 .a1:hover{
@@ -48,7 +62,7 @@ body{
 }
 #p1{
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 130px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     margin-bottom: 0%;
@@ -61,18 +75,27 @@ body{
     
 }
 #p2{
-    font-size: 30px;
+    font-size: 45px;
     color:rgb(41, 194, 221);
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0%;
 }
+@media (max-width:500px){
+    #p2{
+        font-size: 16px;
+
+    }
+    
+}
+
 
 .name{
     color: blanchedalmond;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .span{
     color:rgb(11, 159, 185);
 }
@@ -84,6 +107,14 @@ body{
     padding: 15px;
     font-weight: bolder;
 }
+@media (max-width: 600px) {
+    .about{
+      font-size: 16px;
+     
+    }
+  }
+    
+
 #about{
     background-color: rgb(19, 18, 18);
     margin-top: 0;
@@ -96,19 +127,37 @@ body{
 #projects{
     background-color: rgb(19, 18, 18);
 }
+@media (max-width: 600px) {
+    #projects{
+      font-size: 10px;
+      width: 100%;
+   
+    }
+  }
 #homename{
     color:rgb(41, 194, 221);
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;  
 
 }
+@media (max-width: 600px) {
+    #homename {
+      font-size: 12px;
+    }
+  }
 #homedes{
     color:white;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;  
     margin-bottom: 10%;
 
-}#card{
+}@media (max-width: 600px) {
+    #homedes {
+      font-size: 10px;
+    }
+  }
+
+#card{
     padding: 20px;
     background-color: rgb(28, 26, 26);
     width: 25%;
@@ -116,17 +165,38 @@ body{
     transition: 0.3s;
     margin-bottom: 3%;   
 }
+@media (max-width:500px){
+    #card{
+        width: 100%;
+        height: 100%;
+      
+
+    }
+    
+}
 #card img{
     width: 100%;
     height: 200px;
 }
+@media (max-width: 600px) {
+    #card img {
+      width: 100%;
+      height: 50%;
+    }
+  }
 
 #projcard{
 display: flex;
 justify-content: space-evenly;
 padding: 2.5%;
 }
-
+@media (max-width: 600px) {
+    #projcard {
+     
+      width: 100%;
+   
+    }
+  }
 .tosite{
     border: solid 1px rgb(41, 194, 221); 
     font-size: 15px;
@@ -134,8 +204,13 @@ padding: 2.5%;
     color:rgb(41, 194, 221);
     padding: 5px;
     margin-left: 37%; 
-    margin-bottom: 0%; 
+    margin-bottom: -100px; 
 }
+@media (max-width: 600px) {
+    .tosite{
+      font-size: 7px;
+    }
+  }
 
 .tosite:hover{
     background-color: rgb(73, 77, 77);
@@ -146,6 +221,13 @@ padding: 2.5%;
     margin-bottom: 3%;
 
 }
+@media (max-width: 600px) {
+    #techgirl {
+     
+      width: 45%;
+      
+    }
+  }
 #aboutpage{
     display: flex;
    
@@ -164,13 +246,28 @@ padding: 2.5%;
     margin-top: 0%;
 
 }
+@media (max-width: 600px) {
+    #aboutme {
+    
+      width: 150%;
+   
+    }
+  }
 .divcontact{
     text-align: center;
     margin-top: -3%; 
-    background-color: white;
-    padding: 4%;
+    background-color: rgb(238, 240, 240);
+    padding: 2%;
+
    
 }
+@media (max-width: 600px) {
+    .divcontact {
+      width: 90%;
+     
+    }
+  }
+
 #get{
     color: rgb(0, 0, 0);
     font-size: 25px;
@@ -201,3 +298,14 @@ padding: 2.5%;
     margin-left: -5%;
     margin-top: 5%;
 }
+@media (max-width: 600px) {
+    #abouttext {
+      font-size: 12px;
+      width: 100%;
+      margin-left: 2%;
+    }
+  }
+ #email{
+     
+     font-size: 30px;
+ }
